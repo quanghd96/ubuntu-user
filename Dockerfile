@@ -1,6 +1,7 @@
 FROM ubuntu:latest
 
 RUN apt-get update
+RUN apt-get install man -y
 RUN apt-get install less
 RUN apt-get install sudo
 
