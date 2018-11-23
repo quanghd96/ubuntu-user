@@ -9,8 +9,8 @@ RUN apt-get install man -y
 RUN apt-get install less
 RUN apt-get install sudo
 
-RUN useradd -ms /bin/bash newuser
+RUN useradd -ms /bin/bash lpic
 
-USER newuser
+USER lpic
 
-WORKDIR /home/newuser
+WORKDIR /home/lpic
